@@ -15,3 +15,8 @@
     - <code>cd ~/.local/bin && git clone git@github.com:Sepinm/apk-noob.git</code>
 	- <code>sudo chmod +x ~/.local/bin/apk-noob</code>
 2. Should run out of the box with command <code>apk-noob</code>
+
+## Umm, actually, it fails to work
+1. Try moving all the things like <code>mv ~/.local/bin/apk-noob/* ~/.local/bin/</code> 
+2. Check the code (I'm not perfect at these things by any means)
+3. Read some forums about shell scripts and see if you can fix it
