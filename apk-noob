@@ -10,6 +10,7 @@ case $apkwhat in
   4) echo "Which package?" && read installpackage && sudo apk add $installpackage ;;
   5) echo "Which package?" && read checkpackage && sudo apk -e info $checkpackage ;;
   6) echo "Which package?" && read deppackacge && apk -R info $deppackacge ;;
+  7) sudo apk fix ;;
   *) printf "\nNot allowed, yet. Exiting..." && sleep 1 && echo "done" ;;
 esac
 
