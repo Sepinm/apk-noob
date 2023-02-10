@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo cat ./dowhat.md
+sudo cat ~/.local/bin/apk-noob/dowhat.md
 read -n1 -p "APK does what?" apkwhat
 
 case $apkwhat in

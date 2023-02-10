@@ -13,8 +13,9 @@
 1. Copy the repo and add to ~/.local/bin
     - <code>mkdir ~/.local/bin</code>
     - <code>cd ~/.local/bin && git clone https://github.com/Sepinm/apk-noob.git</code>
-	- <code>sudo chmod +x ~/.local/bin/apk-noob</code>
-2. Should run out of the box with command <code>apk-noob</code>
+	- <code>mv ~/.local/bin/apk-noob/apk-noob ~/.local/bin/apk-noob.sh</code>
+	- <code>sudo chmod +x ~/.local/bin/apk-noob.sh</code>
+2. Should run out of the box with command <code>apk-noob.sh</code>
 
 ## Umm, actually, it fails to work
 1. Try moving all the things like <code>mv ~/.local/bin/apk-noob/* ~/.local/bin/</code> 
