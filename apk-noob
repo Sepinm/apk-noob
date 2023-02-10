@@ -13,5 +13,6 @@ case $apkwhat in
   7) sudo apk fix ;;
   *) printf "\nNot allowed, yet. Exiting..." && sleep 1 && echo "done" ;;
 esac
-
-
+printf "\nDone, exiting..."
+sleep 1
+echo "Bye"
