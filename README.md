@@ -11,7 +11,7 @@
 
 ## How to use
 1. Copy the repo and add to ~/.local/bin
-    1.1. [mkdir ~/.local/bin]
-    1.2. [cd ~/.local/bin && git clone this repo]
-	1.3. [sudo chmod +x ~/.local/bin/apk-noob]
+    - [mkdir ~/.local/bin]
+    - [cd ~/.local/bin && git clone this repo]
+	- [sudo chmod +x ~/.local/bin/apk-noob]
 2. Should run out of the box with command [apk-noob]
