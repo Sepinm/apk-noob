@@ -1,7 +1,8 @@
 #!/bin/bash
 
 sudo cat ~/.local/bin/apk-noob/dowhat.md
-read -n1 -p "APK does what?" apkwhat
+printf "APK does what?\n"
+read -n1 apkwhat
 
 case $apkwhat in
   1) sudo apk update ;;
@@ -11,7 +12,7 @@ case $apkwhat in
   5) echo "Which package?" && read checkpackage && sudo apk -e info $checkpackage ;;
   6) echo "Which package?" && read deppackacge && apk -R info $deppackacge ;;
   7) sudo apk fix ;;
-  *) printf "\nNot allowed, yet. Exiting..." && sleep 1 && echo "done" ;;
+  *) printf "\nNot allowed." ;;
 esac
 printf "\nDone, exiting..."
 sleep 1
