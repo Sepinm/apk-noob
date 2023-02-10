@@ -12,7 +12,7 @@
 ## How to use
 1. Copy the repo and add to ~/.local/bin
     - <code>mkdir ~/.local/bin</code>
-    - <code>cd ~/.local/bin && git clone git@github.com:Sepinm/apk-noob.git</code>
+    - <code>cd ~/.local/bin && git clone https://github.com/Sepinm/apk-noob.git</code>
 	- <code>sudo chmod +x ~/.local/bin/apk-noob</code>
 2. Should run out of the box with command <code>apk-noob</code>
 
